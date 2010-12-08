@@ -1,0 +1,30 @@
+	body {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		margin: 0px;
+		padding: 0px;
+		font-size: 80%;
+		background: #FFF;
+	}
+	
+	a, .pseudolink {
+		color: #6389ba;
+		cursor: pointer;
+		text-decoration: none;
+	}
+	
+	div{
+	}
+
+	ul {
+		list-style-type:disc;
+		margin: 0;
+	}
+
+	ol {
+		list-style-type:decimal;
+		margin: 0;
+	}
+
+	ol, ul{
+		padding:0px 0px 0px 35px;
+	}

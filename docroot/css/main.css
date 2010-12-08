@@ -1,0 +1,40 @@
+.pseudolink, a{
+	text-decoration:underline;
+	color:blue;
+}
+
+#header{
+	background-color:#c0c0c0;
+	padding:10px;
+	font-size:14px;
+}
+
+body{
+	margin:0px;
+}
+
+.listen_footer{
+	font-size:10px;
+}
+
+.comment{
+	margin-left:20px;
+}
+
+.add_comment_div input[type=text]{
+	width:400px;
+}
+
+p {
+    padding:10px;
+}
+li{
+    margin-left:15px;
+    height:30px;
+}
+h1 {
+    font-size:25px;
+}
+#content {
+    font-size:20px;
+}

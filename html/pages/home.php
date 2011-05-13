@@ -7,7 +7,7 @@
 <ol>
 <?
     foreach ($subtitles as $sub) {
-        ?><li><a href="/<?= $sub['sub_id'] ?>"><?= $sub['title'] ?></a></li><?
+        ?><li><a href="/<?= $sub['sub_id'] ?>"><?php echo htmlentities($sub['title'], ENT_COMPAT, 'UTF-8', true); ?></a></li><?
     }
 ?>
 </ol>

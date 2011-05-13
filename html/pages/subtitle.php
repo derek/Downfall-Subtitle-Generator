@@ -111,9 +111,9 @@
 
     <div>
         <form method="POST">
-            <div>Title: <input type="text" name="title" value="<?= $sub['title'] ?>"></div>
+            <div>Title: <input type="text" name="title" value="<?php echo htmlentities($sub['title'], 'UTF-8', true); ?>"></div>
             <p>Subtitles: <span style="font-size:12px;">See the '<a href="/1">Vuvuzela</a>' video for a sample of formatting.</a> </p>
-            <div><textarea id="textarea-subs" name="subs"><?= $sub['subs'] ?></textarea></div>
+            <div><textarea id="textarea-subs" name="subs"><?php echo htmlentities($sub['subs'], ENT_COMPAT, 'UTF-8', true); ?></textarea></div>
             <br />
             <div style="text-align:center;">
                 <input type="submit" value="Save" style="font-size:20px;">
